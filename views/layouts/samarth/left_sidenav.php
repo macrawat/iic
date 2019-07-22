@@ -36,7 +36,7 @@
                                 'class' => 'submenu',
                                 'items' => [
                                     ['label' => 'Sub Menu 1', 'url' => ['/demomodule']],
-                                    ['label' => 'Sub Menu 2', 'url' => ['#']],
+                                    ['label' => 'Dependent Dropdown', 'url' => ['/demomodule/app/dependent-dropdown']],
                                 ]
                             ],
 
