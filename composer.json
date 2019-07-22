@@ -11,7 +11,8 @@
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
-        "yiisoft/yii2-bootstrap4": "^2.0"
+        "yiisoft/yii2-bootstrap4": "^2.0",
+        "junati/yii2-modal-widget": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
@@ -54,10 +55,18 @@
             ]
         }
     },
-    "repositories": [
+   "repositories": [
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "git",
+            "url": "https://mukesh_iic@bitbucket.org/uimsiic/yii2-modal-widget.git"
+        },        
+        {
+            "type": "git",
+            "url": "https://anil_iic@bitbucket.org/uimsiic/yii2-samarth.git"
         }
     ]
 }

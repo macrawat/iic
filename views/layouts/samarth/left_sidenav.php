@@ -36,7 +36,11 @@
                                 'class' => 'submenu',
                                 'items' => [
                                     ['label' => 'Sub Menu 1', 'url' => ['/demomodule']],
+                                    ['label' => 'Form Template', 'url' => ['/demomodule/app/form-template']],
                                     ['label' => 'Dependent Dropdown', 'url' => ['/demomodule/app/dependent-dropdown']],
+                                    ['label' => 'Modal Widget', 'url' => ['/demomodule/app/modal-widget']],
+                                    
+
                                 ]
                             ],
 

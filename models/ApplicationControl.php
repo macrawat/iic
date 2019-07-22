@@ -83,8 +83,8 @@ class ApplicationControl extends \yii\db\ActiveRecord
     public static function getAllVariable()
     {
         return [
-            'app_name' => 'Samarth Basic',
-            'organisation_name' => 'Samarth',
+            'app_name' => 'YIIC Basic',
+            'organisation_name' => 'YIIC',
         ];
         $models = self::find()->cache(7200)->all();
         $model = ArrayHelper::map($models, 'key', 'value');

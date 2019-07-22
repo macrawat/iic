@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3e812631b7e67a2c6f55e5129207cfc",
+    "content-hash": "f9e980c8f3da68cf8a28e52438e285be",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -331,6 +331,40 @@
                 "html"
             ],
             "time": "2019-07-14T18:58:38+00:00"
+        },
+        {
+            "name": "junati/yii2-modal-widget",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://mukesh_iic@bitbucket.org/uimsiic/yii2-modal-widget.git",
+                "reference": "556a903871b85a7b283e8307752a6bc2f4ffccfa"
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "junati\\modalwidget\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Junati",
+                    "email": "anil@junati.com"
+                }
+            ],
+            "description": "This is a modal widget for achieving the add more functionality",
+            "keywords": [
+                " add-more",
+                " widget",
+                "modal"
+            ],
+            "time": "2019-04-09T11:56:47+00:00"
         },
         {
             "name": "npm-asset/bootstrap",
@@ -3818,7 +3852,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "junati/yii2-modal-widget": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

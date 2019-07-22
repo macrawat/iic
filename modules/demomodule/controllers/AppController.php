@@ -24,6 +24,14 @@ class AppController extends Controller
         return $this->render('dependent',['model' => $model]);
     }
 
+    public function actionFormTemplate(){
+        return $this->render('form-template');
+    }
+    
+    public function actionModalWidget(){
+        return $this->render('modal-widget');
+    }
+
 
     /**
      * This function is used by ajax request
