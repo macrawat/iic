@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<h3>Modal Widget Usage <?= Html::a('Download Manual',['http://10.107.107.107/uploads/uims/PU-1736838-190719-1430-32.pdf'],['target' => '_blank','class' =>'btn btn-secondary']) ?></h3>
+<h3>Modal Widget Usage <?= Html::a('Download Manual','http://10.107.107.107/uploads/uims/PU-1736838-190719-1430-32.pdf',['target' => '_blank','class' =>'btn btn-secondary']) ?></h3>
 <pre>
 &lt;?php echo ModalWidget::widget([
                                     'options' => [
